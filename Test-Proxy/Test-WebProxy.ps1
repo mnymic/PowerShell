@@ -29,7 +29,7 @@ Param(
   [string]$Url,
   [Parameter(Mandatory=$True)]
   [string]$ProxyHost,
-  [Parameter(Mandatory=$True)]
+  [Parameter(Mandatory=$False)]
   [int32]$ProxyPort,
   [string]$UserName,
   [string]$Password
